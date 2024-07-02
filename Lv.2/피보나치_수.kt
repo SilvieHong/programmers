@@ -8,6 +8,6 @@ class Solution {
             fibonacci.add((fibonacci[i - 1] + fibonacci[i - 2])%1234567)
             if (i == n) return fibonacci[i]
         }
-        return 0;
+        return 0
     }
 }
